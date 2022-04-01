@@ -15,6 +15,8 @@ ul {
 a {
     color: white;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 header img {
@@ -29,7 +31,7 @@ header img {
 }
 
 h1 {
-    color: #0000FF;
+    color: #70ebff;
 }
 
 p {
@@ -40,6 +42,12 @@ p {
 footer img {
     width: 40px;
     height: 40px;
+}
+.contato {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    padding: 20px 5px;
 }
 
 footer {
@@ -65,5 +73,5 @@ nav a {
 }
 
     nav a:hover {
-        color: #0000FF;
+        color: #70ebff;
     }
