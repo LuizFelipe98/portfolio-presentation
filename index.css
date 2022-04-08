@@ -20,11 +20,13 @@ a {
 }
 
 header img {
+    position: relative;
     width: 150px;
     height: 150px;
+    border: 5px solid #82ffff;
     border-radius: 50%;
-    border: 5px solid #0000FF;
 }
+
 
 .center {
     text-align: center;
@@ -91,7 +93,7 @@ nav a {
 
 ::-webkit-scrollbar-thumb {
     background-color: #70ebff;
-    background: linear-gradient(to top, #247BA0, #70ebff);
+    background: linear-gradient(to top, #247BA0, #82ffff 100%);
     border-radius: 10px;
     border: 2px solid rgba(105,105,105);
 }
